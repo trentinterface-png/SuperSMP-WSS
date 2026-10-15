@@ -1,0 +1,16 @@
+{
+  "name": "supersmp-wss-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TLS-terminating WebSocket relay for SuperSMP on Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}
